@@ -8,3 +8,4 @@
 
 ### Let's introduce what's a poker game:
 
+![poker hand](https://user-images.githubusercontent.com/67437213/160717879-779f9a71-7d57-44fa-b0bb-eaae95ec8892.JPG)
