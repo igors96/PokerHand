@@ -8,4 +8,6 @@
 
 ### Let's introduce what's a poker game:
 
-![poker hand](https://user-images.githubusercontent.com/67437213/160717879-779f9a71-7d57-44fa-b0bb-eaae95ec8892.JPG)
+![poker hand](https://user-images.githubusercontent.com/67437213/160718241-0023ae13-875e-4129-92b6-a10132238eff.JPG)
+
+### Poker is a card game that can be played by 2 or more people, which consists (in the most popular mode) that each player has five cards in its hand, evaluates what's the configuration of your hand (there are 10 possible configurations, later it'll be described) and bets poker chips, which represents some money value.
