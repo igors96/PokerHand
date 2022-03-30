@@ -37,8 +37,8 @@
 
 ### Three of a kind: is the seventh in the list of hand ranks. Its probability of appearance is 2.1128%. Happens when there are three cards of the same denomination. The tiebreaker consists in analyzing the high value of the three of a kind.
 
-### Two pair: is the eighth in the list of hand ranks. Its probability of appearance is 4.7539%. Happens when there are two cards of the same denomination and two cards of another denomination. The tiebreaker consists in analyzing the high value of the two pairs.
+### Two pair: is the eighth in the list of hand ranks. Its probability of appearance is 4.7539%. Happens when there are two cards of the same denomination and two cards of another denomination. The tiebreaker consists in analyzing the high value of the two pairs, one by one. If doesn't break the tie, the comparison goes to the remaining card denomination by the high value. It's possible to have a draw if ties in all comparisons.
 
-### One pair: is the ninth in the list of hand ranks. Its probability of appearance is 42.2569%. Happens when there are two cards of the same denomination.
+### One pair: is the ninth in the list of hand ranks. Its probability of appearance is 42.2569%. Happens when there are two cards of the same denomination. The tiebreaker consists in analyzing the high value of the one pair. If doesn't break the tie, the comparison goes to the 3 remaining cards denomination by the high value, until have a winner. It's possible to have a draw if ties in all comparisons.
 
-### High card: is the last in the list of hand ranks. Its probability of appearance is 50.1177%. Happens when there aren't any of the another 9 hand ranks. The card with the highest denomination is considered.
+### High card: is the last in the list of hand ranks. Its probability of appearance is 50.1177%. Happens when there aren't any of the another 9 hand ranks. The card with the highest denomination is considered. If have a tie, goes to the highest denomination of the 4 remaining cards and so on until break the tie. It's possible to have a draw if ties in all comparisons.
