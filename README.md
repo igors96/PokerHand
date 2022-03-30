@@ -110,7 +110,7 @@
   </tr>  
 </table>
 
-''' py
+''' {python}
    class PokerHand(object):
 
        def __init__(self, hand:str = None):
