@@ -3,13 +3,13 @@
 
 ![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=UNDER%20DEVELOPMENT&color=GREEN&style=for-the-badge)
 
-### This is a project written by Igor Nogueira, to help a famous casino to increase its revenue by the development of a online poker game to be further offered to the users. Here, you'll find a poker hands evaluator, that receives two poker hands and determines if the first hand wins or loses to the second hand.
+### This is a project in Python 3.7.13 written by Igor Nogueira, to help a famous casino to increase its revenue by the development of a online poker game to be further offered to the users. Here, you'll find a poker hands evaluator, that receives two poker hands and determines if the first hand wins or loses to the second hand.
 
 ### Let's introduce what's a poker game:
 
 ![poker hand](https://user-images.githubusercontent.com/67437213/160718241-0023ae13-875e-4129-92b6-a10132238eff.JPG)
 
-### Poker is a card game that can be played by 2 or more people, which consists (in the most popular mode) that each player has five cards in its hand, evaluates what's the rank of your hand (there are 10 possible hand ranks, later it'll be described) and bets poker chips, which represents some money value.
+### Poker is a card game that can be played by 2 or more people, which consists (in the most popular mode) that each player has five cards in its hand, evaluates what's the rank of your hand (there are 10 possible hand ranks, later it'll be described) and bets poker chips, which represents some money value. In this project we'll consider a deck of 52 cards, four cards to each denomination.
 
 ### Each card has a value, which is defined by the number of the card or the following letters: J, Q, K, A. Specifying the values:
 + From 2 to 10, the value is the number;
@@ -22,6 +22,99 @@
 ### There are 10 possible hand ranks, which are described as follows:
 
 ![hand ranks poker](https://user-images.githubusercontent.com/67437213/160733480-17037b8a-a481-4d9b-80e4-36299d285a2b.JPG)
+<table border="1">    
+  <tr>
+    <th colspan="6">Cabeçalho da Tabela</th>
+  </tr>        
+  <tr>
+    <center><td><b>Hand rank</b></td>
+    <td>Linha 1 - Ccoluna 2</td>
+    <td>Linha 1 - Ccoluna 2</td>
+    <td>Linha 1 - Ccoluna 2</td>
+    <td>Linha 1 - Ccoluna 2</td>
+    <td>Linha 1 - Ccoluna 2</td>
+  </tr>
+  <tr>
+    <td>Linha 2 - Coluna 1</td>
+    <td>Linha 2 - Coluna 2</td>
+    <td>Linha 1 - Ccoluna 2</td>
+    <td>Linha 1 - Ccoluna 2</td>
+    <td>Linha 1 - Ccoluna 2</td>
+    <td>Linha 1 - Ccoluna 2</td>
+  </tr>
+  <tr>
+    <td>Linha 2 - Coluna 1</td>
+    <td>Linha 2 - Coluna 2</td>
+    <td>Linha 1 - Ccoluna 2</td>
+    <td>Linha 1 - Ccoluna 2</td>
+    <td>Linha 1 - Ccoluna 2</td>
+    <td>Linha 1 - Ccoluna 2</td>
+  </tr>
+  <tr>
+    <td>Linha 2 - Coluna 1</td>
+    <td>Linha 2 - Coluna 2</td>
+    <td>Linha 1 - Ccoluna 2</td>
+    <td>Linha 1 - Ccoluna 2</td>
+    <td>Linha 1 - Ccoluna 2</td>
+    <td>Linha 1 - Ccoluna 2</td>
+  </tr>
+  <tr>
+    <td>Linha 2 - Coluna 1</td>
+    <td>Linha 2 - Coluna 2</td>
+    <td>Linha 1 - Ccoluna 2</td>
+    <td>Linha 1 - Ccoluna 2</td>
+    <td>Linha 1 - Ccoluna 2</td>
+    <td>Linha 1 - Ccoluna 2</td>
+  </tr>
+  <tr>
+    <td>Linha 2 - Coluna 1</td>
+    <td>Linha 2 - Coluna 2</td>
+    <td>Linha 1 - Ccoluna 2</td>
+    <td>Linha 1 - Ccoluna 2</td>
+    <td>Linha 1 - Ccoluna 2</td>
+    <td>Linha 1 - Ccoluna 2</td>
+  </tr>
+  <tr>
+    <td>Linha 2 - Coluna 1</td>
+    <td>Linha 2 - Coluna 2</td>
+    <td>Linha 1 - Ccoluna 2</td>
+    <td>Linha 1 - Ccoluna 2</td>
+    <td>Linha 1 - Ccoluna 2</td>
+    <td>Linha 1 - Ccoluna 2</td>
+  </tr>
+  <tr>
+    <td>Linha 2 - Coluna 1</td>
+    <td>Linha 2 - Coluna 2</td>
+    <td>Linha 1 - Ccoluna 2</td>
+    <td>Linha 1 - Ccoluna 2</td>
+    <td>Linha 1 - Ccoluna 2</td>
+    <td>Linha 1 - Ccoluna 2</td>
+  </tr>
+  <tr>
+    <td>Linha 2 - Coluna 1</td>
+    <td>Linha 2 - Coluna 2</td>
+    <td>Linha 1 - Ccoluna 2</td>
+    <td>Linha 1 - Ccoluna 2</td>
+    <td>Linha 1 - Ccoluna 2</td>
+    <td>Linha 1 - Ccoluna 2</td>
+  </tr>
+  <tr>
+    <td>Linha 2 - Coluna 1</td>
+    <td>Linha 2 - Coluna 2</td>
+    <td>Linha 1 - Ccoluna 2</td>
+    <td>Linha 1 - Ccoluna 2</td>
+    <td>Linha 1 - Ccoluna 2</td>
+    <td>Linha 1 - Ccoluna 2</td>
+  </tr>
+  <tr>
+    <td>Linha 2 - Coluna 1</td>
+    <td>Linha 2 - Coluna 2</td>
+    <td>Linha 1 - Ccoluna 2</td>
+    <td>Linha 1 - Ccoluna 2</td>
+    <td>Linha 1 - Ccoluna 2</td>
+    <td>Linha 1 - Ccoluna 2</td>
+  </tr>  
+</table>
 
 ### Royal Flush or Royal Straight Flush: is the major hand rank that can be appear in a poker hand, but its probability of appearance is 0.000154%. The sequence is: A, K, Q, J, 10, all of the same suit. There's no possibility to have a tiebreaker in this case.
 
