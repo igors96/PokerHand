@@ -123,243 +123,243 @@ class PokerHand(object):
        return str(list(self))
 ```
 ``` python
-def extract_number(self):
+   def extract_number(self):
 
-   numbers = []
-   for card in PokerHand(self.hand):
-      number = card[0]
-      numbers.append(number)
-   return numbers
+      numbers = []
+      for card in PokerHand(self.hand):
+         number = card[0]
+         numbers.append(number)
+      return numbers
 
-def extract_suit(self):
+   def extract_suit(self):
 
-   suits = []
-   for card in PokerHand(self.hand):
-      suit = card[1]
-      suits.append(suit)
-   return suits
+      suits = []
+      for card in PokerHand(self.hand):
+         suit = card[1]
+         suits.append(suit)
+      return suits
 
-def value(self):
+   def value(self):
 
-   values = []        
-   for card in PokerHand(self.hand):
-      if card[0] == "A":
-         value = 14
-         values.append(value)
+      values = []        
+      for card in PokerHand(self.hand):
+         if card[0] == "A":
+            value = 14
+            values.append(value)
 
-      elif card[0] == "K":
-         value = 13
-         values.append(value)
+         elif card[0] == "K":
+            value = 13
+            values.append(value)
 
-      elif card[0] == "Q":
-         value = 12
-         values.append(value)
+         elif card[0] == "Q":
+            value = 12
+            values.append(value)
 
-      elif card[0] == "J":
-         value = 11
-         values.append(value)
+         elif card[0] == "J":
+            value = 11
+            values.append(value)
 
-      elif card[0] == "T":
-         value = 10
-         values.append(value)
+         elif card[0] == "T":
+            value = 10
+            values.append(value)
 
-      else:
-         value = int(card[0:-1])
-         values.append(value)
+         else:
+            value = int(card[0:-1])
+            values.append(value)
 
-   return sorted(values, reverse = True)
+      return sorted(values, reverse = True)
 
-def hand_dist(self):
-      
-   dist = {i:0 for i in range(2, 15)}
-   for card in PokerHand(self.hand):
-      if card[0] == "A":
-         value = 14
+   def hand_dist(self):
 
-      elif card[0] == "K":
-         value = 13
+      dist = {i:0 for i in range(2, 15)}
+      for card in PokerHand(self.hand):
+         if card[0] == "A":
+            value = 14
 
-      elif card[0] == "Q":
-         value = 12
+         elif card[0] == "K":
+            value = 13
 
-      elif card[0] == "J":
-         value = 11
+         elif card[0] == "Q":
+            value = 12
 
-      elif card[0] == "T":
-         value = 10
+         elif card[0] == "J":
+            value = 11
 
-      else:
-         value = int(card[0:-1])
+         elif card[0] == "T":
+            value = 10
 
-      dist[value] += 1
+         else:
+            value = int(card[0:-1])
 
-   return dist
+         dist[value] += 1
+
+      return dist
 ```
 
 
 ``` python
-def is_flush(self):
+   def is_flush(self):
 
-   if len(set(self.extract_suit())) == 1:
-      return True
-   else:
-      return False    
+      if len(set(self.extract_suit())) == 1:
+         return True
+      else:
+         return False    
 
-def is_straight(self):
+   def is_straight(self):
 
-   list_straight = []
-   list_values = self.value()        
-   for i in range(4):
-      if list_values[i] == list_values[i+1] + 1:
-         list_straight.append(list_values[i])
-      if len(list_straight) == 4:
+      list_straight = []
+      list_values = self.value()        
+      for i in range(4):
+         if list_values[i] == list_values[i+1] + 1:
+            list_straight.append(list_values[i])
+         if len(list_straight) == 4:
+            return True
+         else:
+            return False
+
+   def is_straight_flush(self):
+
+      if self.is_straight() == True and self.is_flush() == True:
          return True
       else:
          return False
 
-def is_straight_flush(self):
+   def is_royal_straight_flush(self):
 
-   if self.is_straight() == True and self.is_flush() == True:
-      return True
-   else:
-      return False
-
-def is_royal_straight_flush(self):
-
-   if self.is_straight_flush() == True and max(self.value()) == 14:
-      return True
-   else:
-      return False
-
-def is_one_pair(self):  
-
-   keys_is_one_pair = []        
-   hand_dist = self.hand_dist()
-   for key, value in hand_dist.items():
-      if value == 2:
-         keys_is_one_pair.append(key)                
+      if self.is_straight_flush() == True and max(self.value()) == 14:
+         return True
       else:
-         pass
-        
-   if len(keys_is_one_pair) == 1:
-      return True
-   else:
-      return False
+         return False
 
-def is_two_pair(self): 
+   def is_one_pair(self):  
 
-   keys_two_pair = []       
-   hand_dist = self.hand_dist()
-   for key, value in hand_dist.items():
-      if value == 2:
-         keys_two_pair.append(key)                
+      keys_is_one_pair = []        
+      hand_dist = self.hand_dist()
+      for key, value in hand_dist.items():
+         if value == 2:
+            keys_is_one_pair.append(key)                
+         else:
+            pass
+
+      if len(keys_is_one_pair) == 1:
+         return True
       else:
-         pass
-       
-   if len(keys_two_pair) == 2:
-      return True
-   else:
-      return False
+         return False
 
-def is_full_house(self):       
+   def is_two_pair(self): 
 
-   keys_full_house = []              
-   hand_dist = self.hand_dist()
-   for key, value in hand_dist.items():
-      if value == 2 or value == 3:
-         keys_full_house.append(key)           
+      keys_two_pair = []       
+      hand_dist = self.hand_dist()
+      for key, value in hand_dist.items():
+         if value == 2:
+            keys_two_pair.append(key)                
+         else:
+            pass
+
+      if len(keys_two_pair) == 2:
+         return True
       else:
-         pass        
+         return False
 
-   if len(keys_full_house) == 2 and self.is_two_pair() == False:
-      return True
-   else:
-      return False
+   def is_full_house(self):       
 
-def is_four(self): 
+      keys_full_house = []              
+      hand_dist = self.hand_dist()
+      for key, value in hand_dist.items():
+         if value == 2 or value == 3:
+            keys_full_house.append(key)           
+         else:
+            pass        
 
-   keys_is_four = []        
-   hand_dist = self.hand_dist()
-   for key, value in hand_dist.items():
-      if value == 4:
-         keys_is_four.append(key)              
+      if len(keys_full_house) == 2 and self.is_two_pair() == False:
+         return True
       else:
-         pass
-        
-   if len(keys_is_four) == 1:
-      return True
-   else:
-      return False
+         return False
 
-def is_three(self): 
+   def is_four(self): 
 
-   keys_is_three = []        
-   hand_dist = self.hand_dist()
-   for key, value in hand_dist.items():
-      if value == 3:
-         keys_is_three.append(key)                               
+      keys_is_four = []        
+      hand_dist = self.hand_dist()
+      for key, value in hand_dist.items():
+         if value == 4:
+            keys_is_four.append(key)              
+         else:
+            pass
+
+      if len(keys_is_four) == 1:
+         return True
       else:
-         pass
+         return False
 
-   if len(keys_is_three) == 1 and self.is_full_house() == False:
-      return True
-   else:
-      return False
+   def is_three(self): 
 
-def high_card(self):
+      keys_is_three = []        
+      hand_dist = self.hand_dist()
+      for key, value in hand_dist.items():
+         if value == 3:
+            keys_is_three.append(key)                               
+         else:
+            pass
 
-   max_card = max(self.value())   
-   return max_card
+      if len(keys_is_three) == 1 and self.is_full_house() == False:
+         return True
+      else:
+         return False
+
+   def high_card(self):
+
+      max_card = max(self.value())   
+      return max_card
 ```
 ``` python
-def high_card_full_house_or_three(self):
+   def high_card_full_house_or_three(self):
 
-   key_full_house_or_three = [] 
-   hand_dist = self.hand_dist()
-   for key, value in hand_dist.items():
-      if value == 3:
-         key_full_house_or_three.append(key)
-      else:
-         pass
-         
-   return key_full_house_or_three
+      key_full_house_or_three = [] 
+      hand_dist = self.hand_dist()
+      for key, value in hand_dist.items():
+         if value == 3:
+            key_full_house_or_three.append(key)
+         else:
+            pass
 
-def high_card_four_of_a_kind(self):
-        
-   key_four_of_a_kind = [] 
-   hand_dist = self.hand_dist()
-   for key, value in hand_dist.items():
-      if value == 4:
-         key_four_of_a_kind.append(key)
-      else:
-         pass
+      return key_full_house_or_three
 
-   return key_four_of_a_kind
+   def high_card_four_of_a_kind(self):
 
-def high_card_two_pair(self):        
+      key_four_of_a_kind = [] 
+      hand_dist = self.hand_dist()
+      for key, value in hand_dist.items():
+         if value == 4:
+            key_four_of_a_kind.append(key)
+         else:
+            pass
 
-   key_two_pair = [] 
-   hand_dist = self.hand_dist()
-   for key, value in hand_dist.items():
-      if value == 2:
-         key_two_pair.append(key)
-      else:
-         pass
+      return key_four_of_a_kind
 
-   if len(key_two_pair) == 2:
-      key_two_pair = sorted(key_two_pair, reverse = True)
+   def high_card_two_pair(self):        
 
-   return key_two_pair
+      key_two_pair = [] 
+      hand_dist = self.hand_dist()
+      for key, value in hand_dist.items():
+         if value == 2:
+            key_two_pair.append(key)
+         else:
+            pass
 
-def high_card_one_pair(self):        
+      if len(key_two_pair) == 2:
+         key_two_pair = sorted(key_two_pair, reverse = True)
 
-   key_one_pair = [] 
-   hand_dist = self.hand_dist()
-   for key, value in hand_dist.items():
-      if value == 2:
-         key_one_pair.append(key)
-      else:
-         pass
+      return key_two_pair
 
-   return key_one_pair
+   def high_card_one_pair(self):        
+
+      key_one_pair = [] 
+      hand_dist = self.hand_dist()
+      for key, value in hand_dist.items():
+         if value == 2:
+            key_one_pair.append(key)
+         else:
+            pass
+
+      return key_one_pair
 ```
