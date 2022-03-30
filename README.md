@@ -132,9 +132,9 @@ class PokerHand(object):
          number = card[0]
          numbers.append(number)
       return numbers
-
+```
 ### Card treatment
-
+``` python
    def extract_suit(self):
 
       suits = []
@@ -394,9 +394,9 @@ class PokerHand(object):
          return 2
       else:
          return 1
-
+```
 ### Tie-breaker and comparisons of two hands
-
+``` python
    def tie_breaker(self, hand2:str = None):
 
       self.hand2: str = hand2        
