@@ -1,15 +1,20 @@
 ![DataH](https://user-images.githubusercontent.com/67437213/160717510-3a182d88-0908-4f5c-aae2-b5e52b2c879d.JPG)
-<h1>Poker hands evaluator</h1>
+# Poker hands evaluator
 
 ![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=UNDER%20DEVELOPMENT&color=GREEN&style=for-the-badge)
 
 ### This is a project in Python 3.7.13 written by Igor Nogueira, to help a famous casino to increase its revenue by the development of a online poker game to be further offered to the users. Here, you'll find a poker hands evaluator, that receives two poker hands and determines if the first hand wins or loses to the second hand.
 
-### Let's introduce what's a poker game:
+## Contents
+   - [Poker game](#Poker-game)
+     - 
+   
+
+### Poker game
 
 ![poker hand](https://user-images.githubusercontent.com/67437213/160718241-0023ae13-875e-4129-92b6-a10132238eff.JPG)
 
-### Poker is a card game that can be played by 2 or more people, which consists (in the most popular mode) that each player has five cards in its hand, evaluates what's the rank of your hand (there are 10 possible hand ranks, later it'll be described) and bets poker chips, which represents some money value. In this project we'll consider a deck of 52 cards, four cards to each denomination.
+#### Poker is a card game that can be played by 2 or more people, which consists (in the most popular mode) that each player has five cards in its hand, evaluates what's the rank of your hand (there are 10 possible hand ranks, later it'll be described) and bets poker chips, which represents some money value. In this project we'll consider a deck of 52 cards, four cards to each denomination.
 
 ### Each card has a value, which is defined by the number of the card or the following letters: J, Q, K, A. Specifying the values:
 + From 2 to 10, the value is the number;
@@ -105,3 +110,15 @@
   </tr>  
 </table>
 
+''' py
+class PokerHand(object):
+    
+    def __init__(self, hand:str = None):
+        self.hand: str = hand       
+
+    def __iter__(self):
+        return iter(self.hand.split())
+
+    def __str__(self):
+        return str(list(self))
+'''
