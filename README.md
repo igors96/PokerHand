@@ -110,7 +110,11 @@
   </tr>  
 </table>
 
-''' {python}
+```python
+print "hello world"
+```
+
+'''
    class PokerHand(object):
 
        def __init__(self, hand:str = None):
