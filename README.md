@@ -517,7 +517,7 @@ class PokerHand(object):
         
 ```
 
-### Testes
+### Tests
 
 ```python
 import unittest
@@ -554,3 +554,11 @@ class TestPokerHands(unittest.TestCase):
  
 if __name__ == '__main__':
     unittest.main(argv=['first-arg-is-ignored'], exit=False)
+```
+```python    
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.007s
+
+OK
+```
