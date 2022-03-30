@@ -20,6 +20,7 @@
 ### Hand Ranks
 
 ### There are 10 possible hand ranks, which are described as follows:
+![hand ranks](https://user-images.githubusercontent.com/67437213/160901677-a854a8d5-2e0e-43f9-a069-883d763447ab.JPG)
 
 ![hand ranks poker](https://user-images.githubusercontent.com/67437213/160733480-17037b8a-a481-4d9b-80e4-36299d285a2b.JPG)
 <table border="1">    
