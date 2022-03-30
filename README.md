@@ -20,12 +20,11 @@
 ### Hand Ranks
 
 ### There are 10 possible hand ranks, which are described as follows:
-![hand ranks](https://user-images.githubusercontent.com/67437213/160901677-a854a8d5-2e0e-43f9-a069-883d763447ab.JPG)
+![hand ranks](https://user-images.githubusercontent.com/67437213/160902018-4a2417a5-6012-4cfa-ac22-d5521543f209.JPG)
 
-![hand ranks poker](https://user-images.githubusercontent.com/67437213/160733480-17037b8a-a481-4d9b-80e4-36299d285a2b.JPG)
 <table border="1">    
   <tr>
-    <th colspan="5">Cabeçalho da Tabela</th>
+    <th colspan="5">Hand ranks</th>
   </tr>        
   <tr>
     <td><b>Hand possible</b></td>
@@ -105,3 +104,4 @@
     <td>If have a tie, goes to the highest denomination of the 4 remaining cards and so on until break the tie. It's possible to have a draw if ties in all comparisons.</td>    
   </tr>  
 </table>
+
