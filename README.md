@@ -111,14 +111,14 @@
 </table>
 
 ''' py
-class PokerHand(object):
-    
-    def __init__(self, hand:str = None):
-        self.hand: str = hand       
+   class PokerHand(object):
 
-    def __iter__(self):
-        return iter(self.hand.split())
+       def __init__(self, hand:str = None):
+           self.hand: str = hand       
 
-    def __str__(self):
-        return str(list(self))
+       def __iter__(self):
+           return iter(self.hand.split())
+
+       def __str__(self):
+           return str(list(self))
 '''
