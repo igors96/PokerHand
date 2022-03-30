@@ -24,95 +24,84 @@
 ![hand ranks poker](https://user-images.githubusercontent.com/67437213/160733480-17037b8a-a481-4d9b-80e4-36299d285a2b.JPG)
 <table border="1">    
   <tr>
-    <th colspan="6">Cabeçalho da Tabela</th>
+    <th colspan="5">Cabeçalho da Tabela</th>
   </tr>        
   <tr>
-    <center><td><b>Hand rank</b></td>
-    <td>Linha 1 - Ccoluna 2</td>
-    <td>Linha 1 - Ccoluna 2</td>
-    <td>Linha 1 - Ccoluna 2</td>
-    <td>Linha 1 - Ccoluna 2</td>
-    <td>Linha 1 - Ccoluna 2</td>
+    <td><b>Hand possible</b></td>
+    <td><b>Rank</b></td>
+    <td><b>Probability</b></td>
+    <td><b>Description</b></td>
+    <td><b>Tiebreaker</b></td>    
   </tr>
   <tr>
-    <td>Linha 2 - Coluna 1</td>
-    <td>Linha 2 - Coluna 2</td>
-    <td>Linha 1 - Ccoluna 2</td>
-    <td>Linha 1 - Ccoluna 2</td>
-    <td>Linha 1 - Ccoluna 2</td>
-    <td>Linha 1 - Ccoluna 2</td>
+    <td>Royal Flush or Royal Straight Flush</td>
+    <td>1st</td>
+    <td>0.000154%</td>
+    <td>The sequence is: A, K, Q, J, 10, all of the same suit.</td>
+    <td>There's no possibility to have a tiebreaker in this case.</td>
   </tr>
   <tr>
-    <td>Linha 2 - Coluna 1</td>
-    <td>Linha 2 - Coluna 2</td>
-    <td>Linha 1 - Ccoluna 2</td>
-    <td>Linha 1 - Ccoluna 2</td>
-    <td>Linha 1 - Ccoluna 2</td>
-    <td>Linha 1 - Ccoluna 2</td>
+    <td>Straight Flush</td>
+    <td>2nd</td>
+    <td>0.00139%</td>
+    <td>It happens when there are five cards in denomination sequence, which the high value is from 6 to K(13) and in the same suit.</td>
+    <td>The tiebreaker is by the high value of the sequence.</td>
   </tr>
   <tr>
-    <td>Linha 2 - Coluna 1</td>
-    <td>Linha 2 - Coluna 2</td>
-    <td>Linha 1 - Ccoluna 2</td>
-    <td>Linha 1 - Ccoluna 2</td>
-    <td>Linha 1 - Ccoluna 2</td>
-    <td>Linha 1 - Ccoluna 2</td>
+    <td>Four of a kind</td>
+    <td>3rd</td>
+    <td>0.02401%</td>
+    <td>Happens when there are four cards of the same denomination.</td>
+    <td>The tiebreaker is by the high value of the four of a kind.</td>    
   </tr>
   <tr>
-    <td>Linha 2 - Coluna 1</td>
-    <td>Linha 2 - Coluna 2</td>
-    <td>Linha 1 - Ccoluna 2</td>
-    <td>Linha 1 - Ccoluna 2</td>
-    <td>Linha 1 - Ccoluna 2</td>
-    <td>Linha 1 - Ccoluna 2</td>
+    <td>Full house</td>
+    <td>4th</td>
+    <td>0.1441%</td>
+    <td>It's described when there are three cards of the same denomination and two of another denomination.</td>
+    <td>The tiebreaker consists in analyzing the high value of the three of a kind in the hand.</td>    
   </tr>
   <tr>
-    <td>Linha 2 - Coluna 1</td>
-    <td>Linha 2 - Coluna 2</td>
-    <td>Linha 1 - Ccoluna 2</td>
-    <td>Linha 1 - Ccoluna 2</td>
-    <td>Linha 1 - Ccoluna 2</td>
-    <td>Linha 1 - Ccoluna 2</td>
+    <td>Flush</td>
+    <td>5th</td>
+    <td>0.1965%</td>
+    <td>Happens when there are five cards of the same suit, but not in denomination sequence.</td>
+    <td>The tiebreaker is the high value of the card, and goes like that until break the tie. It's possible to have a draw if ties in all comparisons.</td>    
   </tr>
   <tr>
-    <td>Linha 2 - Coluna 1</td>
-    <td>Linha 2 - Coluna 2</td>
-    <td>Linha 1 - Ccoluna 2</td>
-    <td>Linha 1 - Ccoluna 2</td>
-    <td>Linha 1 - Ccoluna 2</td>
-    <td>Linha 1 - Ccoluna 2</td>
+    <td>Straight</td>
+    <td>6th</td>
+    <td>0.3925%</td>
+    <td>It happens when there are five cards in denomination sequence, not necessarily in the same suit.</td>
+    <td>The tiebreaker is by the high value of the sequence.</td>    
   </tr>
   <tr>
-    <td>Linha 2 - Coluna 1</td>
-    <td>Linha 2 - Coluna 2</td>
-    <td>Linha 1 - Ccoluna 2</td>
-    <td>Linha 1 - Ccoluna 2</td>
-    <td>Linha 1 - Ccoluna 2</td>
-    <td>Linha 1 - Ccoluna 2</td>
+    <td>Three of a kind</td>
+    <td>7th</td>
+    <td>2.1128%</td>
+    <td>Happens when there are three cards of the same denomination.</td>
+    <td>The tiebreaker consists in analyzing the high value of the three of a kind.</td>    
   </tr>
   <tr>
-    <td>Linha 2 - Coluna 1</td>
-    <td>Linha 2 - Coluna 2</td>
-    <td>Linha 1 - Ccoluna 2</td>
-    <td>Linha 1 - Ccoluna 2</td>
-    <td>Linha 1 - Ccoluna 2</td>
-    <td>Linha 1 - Ccoluna 2</td>
+    <td>Two pair</td>
+    <td>8th</td>
+    <td>4.7539%</td>
+    <td>Happens when there are two cards of the same denomination and two cards of another denomination.</td>
+    <td>The tiebreaker consists in analyzing the high value of the two pairs, one by one. If doesn't break the tie, the comparison goes to the remaining card denomination by the high value. It's possible to have a draw if ties in all comparisons.</td>    
   </tr>
   <tr>
-    <td>Linha 2 - Coluna 1</td>
-    <td>Linha 2 - Coluna 2</td>
-    <td>Linha 1 - Ccoluna 2</td>
-    <td>Linha 1 - Ccoluna 2</td>
-    <td>Linha 1 - Ccoluna 2</td>
-    <td>Linha 1 - Ccoluna 2</td>
+    <td>One pair</td>
+    <td>9th</td>
+    <td>42.2569%</td>
+    <td>Happens when there are two cards of the same denomination.</td>
+    <td>The tiebreaker consists in analyzing the high value of the one pair. If doesn't break the tie, the comparison goes to the 3 remaining cards denomination by the high value, until have a winner. It's possible to have a draw if ties in all comparisons.</td>    
   </tr>
   <tr>
-    <td>Linha 2 - Coluna 1</td>
-    <td>Linha 2 - Coluna 2</td>
-    <td>Linha 1 - Ccoluna 2</td>
-    <td>Linha 1 - Ccoluna 2</td>
-    <td>Linha 1 - Ccoluna 2</td>
-    <td>Linha 1 - Ccoluna 2</td>
+    <td>High card</td>
+    <td>10th</td>
+    <td>50.1177%</td>
+    <td>Happens when there aren't any of the another 9 hand ranks. The card with the highest denomination is considered.</td>
+    <td>If have a tie, goes to the highest denomination of the 4 remaining cards and so on until break the tie. It's possible to have a draw if ties in all comparisons.</td>    
   </tr>  
 </table>
 
