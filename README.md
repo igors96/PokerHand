@@ -10,10 +10,12 @@
 
 ![poker hand](https://user-images.githubusercontent.com/67437213/160718241-0023ae13-875e-4129-92b6-a10132238eff.JPG)
 
-### Poker is a card game that can be played by 2 or more people, which consists (in the most popular mode) that each player has five cards in its hand, evaluates what's the configuration of your hand (there are 10 possible configurations, later it'll be described) and bets poker chips, which represents some money value.
+### Poker is a card game that can be played by 2 or more people, which consists (in the most popular mode) that each player has five cards in its hand, evaluates what's the rank of your hand (there are 10 possible hand ranks, later it'll be described) and bets poker chips, which represents some money value.
 
 ### Each card has a value, which is defined by the number of the card or the following letters: J, Q, K, A. Specifying the values:
 + From 2 to 10, the value is the number;
 + J = 11; Q = 12; K = 13; A = 14.
 
-### Each card has a suit, which can be: Spades (S), Diamonds (D), Clubs (C) or Hearts (H). 
+### Each card has a suit, which can be: Spades (S), Diamonds (D), Clubs (C) or Hearts (H).
+
+
