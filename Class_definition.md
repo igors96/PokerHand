@@ -13,12 +13,3 @@ class PokerHand(object):
    def __str__(self):
        return str(list(self))
 ```
-``` python
-   def extract_number(self):
-
-      numbers = []
-      for card in PokerHand(self.hand):
-         number = card[0]
-         numbers.append(number)
-      return numbers
-```
