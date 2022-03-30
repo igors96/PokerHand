@@ -109,15 +109,15 @@
   </tr>  
 </table>
 
-### Class definition
+### Class definition -> https://github.com/igors96/PokerHand/blob/main/Class_definition.md
 
-### Card treatment
+### Card treatment -> https://github.com/igors96/PokerHand/blob/main/Card_treatment.md
 
-### Coding the hand possibilities
+### Coding the hand possibilities -> https://github.com/igors96/PokerHand/blob/main/Hand_possibilities.md
 
-### Hand ranks
+### Hand ranks -> https://github.com/igors96/PokerHand/blob/main/Hand_ranks.md
 
-### Tie-breaker and comparisons of two hands
+### Tie-breaker and comparisons of two hands -> https://github.com/igors96/PokerHand/blob/main/Tiebreaker_comparisons.md
 
-### Tests
+### Tests -> https://github.com/igors96/PokerHand/blob/main/Tests.md
 
