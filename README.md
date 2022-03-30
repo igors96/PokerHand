@@ -104,23 +104,3 @@
     <td>If have a tie, goes to the highest denomination of the 4 remaining cards and so on until break the tie. It's possible to have a draw if ties in all comparisons.</td>    
   </tr>  
 </table>
-
-### Royal Flush or Royal Straight Flush: is the major hand rank that can be appear in a poker hand, but its probability of appearance is 0.000154%. The sequence is: A, K, Q, J, 10, all of the same suit. There's no possibility to have a tiebreaker in this case.
-
-### Straight Flush: is the second main hand rank. Its probability of appearance is 0.00139%. It happens when there are five cards in denomination sequence, which the high value is from 6 to K(13) and in the same suit. The tiebreaker is by the high value of the sequence.
-
-### Four of a kind: is the third in the list of hand ranks. Its probability of appearance is 0.02401%. Happens when there are four cards of the same denomination. The tiebreaker is by the high value of the four of a kind.
-
-### Full house: is the fourth in the list of hand ranks. Its probability of appearance is 0.1441%. It's described when there are three cards of the same denomination and two of another denomination. The tiebreaker consists in analyzing the high value of the three of a kind in the hand.
-
-### Flush: is the fifth in the list of hand ranks. Its probability of appearance is 0.1965%. Happens when there are five cards of the same suit, but not in denomination sequence. The tiebreaker is the high value of the card, and goes like that until break the tie. It's possible to have a draw if ties in all comparisons.
-
-### Straight: is the sixth in the list of hand ranks. Its probability of appearance is 0.3925%. It happens when there are five cards in denomination sequence, not necessarily in the same suit. The tiebreaker is by the high value of the sequence.
-
-### Three of a kind: is the seventh in the list of hand ranks. Its probability of appearance is 2.1128%. Happens when there are three cards of the same denomination. The tiebreaker consists in analyzing the high value of the three of a kind.
-
-### Two pair: is the eighth in the list of hand ranks. Its probability of appearance is 4.7539%. Happens when there are two cards of the same denomination and two cards of another denomination. The tiebreaker consists in analyzing the high value of the two pairs, one by one. If doesn't break the tie, the comparison goes to the remaining card denomination by the high value. It's possible to have a draw if ties in all comparisons.
-
-### One pair: is the ninth in the list of hand ranks. Its probability of appearance is 42.2569%. Happens when there are two cards of the same denomination. The tiebreaker consists in analyzing the high value of the one pair. If doesn't break the tie, the comparison goes to the 3 remaining cards denomination by the high value, until have a winner. It's possible to have a draw if ties in all comparisons.
-
-### High card: is the last in the list of hand ranks. Its probability of appearance is 50.1177%. Happens when there aren't any of the another 9 hand ranks. The card with the highest denomination is considered. If have a tie, goes to the highest denomination of the 4 remaining cards and so on until break the tie. It's possible to have a draw if ties in all comparisons.
