@@ -35,3 +35,10 @@
 
 ### Straight: is the sixth in the list of hand ranks. Its probability of appearance is 0.3925%. It happens when there are five cards in denomination sequence, not necessarily in the same suit.
 
+### Three of a kind: is the seventh in the list of hand ranks. Its probability of appearance is 2.1128%. Happens when there are three cards of the same denomination.
+
+### Two pair: is the eighth in the list of hand ranks. Its probability of appearance is 4.7539%. Happens when there are two cards of the same denomination and two cards of another denomination.
+
+### One pair: is the ninth in the list of hand ranks. Its probability of appearance is 42.2569%. Happens when there are two cards of the same denomination.
+
+### High card: is the last in the list of hand ranks. Its probability of appearance is 50.1177%. Happens when there are two cards of the same denomination and two cards of another denomination.
