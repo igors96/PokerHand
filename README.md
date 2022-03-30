@@ -110,6 +110,8 @@
   </tr>  
 </table>
 
+### Class definition
+
 ``` python
 class PokerHand(object):
 
@@ -130,6 +132,8 @@ class PokerHand(object):
          number = card[0]
          numbers.append(number)
       return numbers
+
+### Card treatment
 
    def extract_suit(self):
 
@@ -195,7 +199,7 @@ class PokerHand(object):
 
       return dist
 ```
-
+### Coding the hand possibilities
 
 ``` python
    def is_flush(self):
@@ -311,6 +315,8 @@ class PokerHand(object):
       max_card = max(self.value())   
       return max_card
 ```
+### Auxiliary methods
+
 ``` python
    def high_card_full_house_or_three(self):
 
@@ -363,6 +369,8 @@ class PokerHand(object):
 
       return key_one_pair
 ```
+### Hand ranks
+
 ``` python
    def hand_rank(self):
 
@@ -386,6 +394,8 @@ class PokerHand(object):
          return 2
       else:
          return 1
+
+### Tie-breaker and comparisons of two hands
 
    def tie_breaker(self, hand2:str = None):
 
