@@ -11,7 +11,9 @@ Here, we'll find the code used to identify each one of the 10 possibilities of c
 - is_one_pair(): identifies if the hand is a One pair. It's applied the function hand_dist() and sends the key to a list if the number of occurrences is 2. If there's just one number that appears two times, it'll be a One pair.
 - is_two_pair(): identifies if the hand is a Two pair. It's applied the function hand_dist() and sends the keys to a list if the number of occurrences is 2. If there's two numbers that appears two times, it'll be a Two pair.
 - is_full_house(): identifies if the hand is a Full house. It's applied the function hand_dist() and sends the keys to a list if the number of occurrences is 2 or 3. If there's one number that appears two times and another number that appears three times in the list, and is not a Two pair, it'll be a Full house.
-- 
+- is_four(): identifies if the hand is a Four of a kind. It's applied the function hand_dist() and send the key to a list if the number of occurrences is 4. If there's a number that appears four times, it'll be a Four of a kind.
+- is_three(): identifies if the hand is a Three of a kind. It's applied the function hand_dist() and send the key to a list if the number of occurrences is 3. If there's a number that appears three times, and is not a Full house, it'll be a Three of a kind.
+- high_card(): If none of the possibilities above appears, is a High Card, which the maximum value of the cards is taken.
 
 ``` python
    def is_flush(self):
