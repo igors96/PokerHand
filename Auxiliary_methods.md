@@ -1,4 +1,6 @@
 ![DataH](https://user-images.githubusercontent.com/67437213/160717510-3a182d88-0908-4f5c-aae2-b5e52b2c879d.JPG)
+Let's talk about some auxiliary methods in the code. These methods were built to help in the decision of the tiebreaker, in the following hands possibilities: Four of a kind, Full house, Three of a kind, Two pair and One pair. All have the same structure and return a specific list, which contains the keys that forms the possibility. 
+
 # Auxiliary methods
 ```python
   def high_card_full_house_or_three(self):
