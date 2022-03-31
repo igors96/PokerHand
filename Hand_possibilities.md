@@ -2,6 +2,17 @@
 
 ### Coding the hand possibilities
 
+Here, we'll find the code used to identify each one of the 10 possibilities of configurations to a hand.
+
+- is_flush(): identifies if the hand is a Flush. The number of suits in this hand should be 1.
+- is_straight(): identifies if the hand is a Straight. First, the numbers of the cards are taken with the function value(), and after in a loop, verifies if the number in the list is equal to the next, plus 1.
+- is_straight_flush(): identifies if the hand is a Straight Flush. If the hand is a Straight and a Flush at the same time, it'll be a Straight Flush.
+- is_royal_straight_flush(): identifies if the hand is a Royal Straight Flush. If the hand is a Straight Flush and the highest number is 14 at the same time, it'll be a Royal Straight Flush.
+- is_one_pair(): identifies if the hand is a One pair. It's applied the function hand_dist() and sends the key to a list if the number of occurrences is 2. If there's just one number that appears two times, it'll be a One pair.
+- is_two_pair(): identifies if the hand is a Two pair. It's applied the function hand_dist() and sends the keys to a list if the number of occurrences is 2. If there's two numbers that appears two times, it'll be a Two pair.
+- is_full_house(): identifies if the hand is a Full house. It's applied the function hand_dist() and sends the keys to a list if the number of occurrences is 2 or 3. If there's one number that appears two times and another number that appears three times in the list, and is not a Two pair, it'll be a Full house.
+- 
+
 ``` python
    def is_flush(self):
 
