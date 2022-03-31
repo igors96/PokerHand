@@ -17,6 +17,8 @@
    * [Hand ranks](#Hand-ranks)
    * [Tie-breaker and comparisons of two hands](#Tie-breaker-and-comparisons-of-two-hands)
    * [Tests](#Tests)
+* [Author](#Author)
+* [License](#License)
    
 ### Poker game
 
@@ -144,4 +146,6 @@ In this section, there are the different stages of the code to reach the solutio
 
 [<img src="https://avatars.githubusercontent.com/u/67437213?v=4" width=200><br><sub>Igor Nogueira da Silva</sub>](https://github.com/igors96)
 
-https://www.linkedin.com/in/igor-nogueira-da-silva-84426b169/
+LinkedIn: https://www.linkedin.com/in/igor-nogueira-da-silva-84426b169/
+
+### License
