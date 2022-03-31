@@ -1,9 +1,10 @@
 ![DataH](https://user-images.githubusercontent.com/67437213/160717510-3a182d88-0908-4f5c-aae2-b5e52b2c879d.JPG)
 
 ### Tie-breaker and comparisons of two hands
+In this section of the code, there are two methods that are correlated: tie_breaker() and compare_with(). First, let's talk about compare_with(). This method receives a second hand, that'll be compared with the first hand by the hand rank. If there's a tie, the method tie_breaker() is called and returns a global variable named "decision", which is used in the method compare_with() to define if the first hand wins or loses to the second hand. 
+
 ``` python
    def tie_breaker(self, hand2:str = None):
-
       self.hand2: str = hand2        
       global decision
 
