@@ -8,7 +8,7 @@
 ## Contents
 * [Poker game](#Poker-game)
 * [Hand Ranks](#Hand-Ranks)
-* [Access to the project](#Access-to-the-project)
+* [Access to the code](#Access-to-the-code)
 * [Code explained](#Code-explained)
    * [Class definition](#Class-definition)
    * [Card treatment](#Card-treatment)
@@ -120,6 +120,7 @@ There are 10 possible hand ranks, which are described as follows:
 
 ### Access to the code
 You can access the code in the following link: https://github.com/igors96/PokerHand/blob/main/POKER_DATA_H_IGOR.ipynb
+
 To run the code, you can copy it and access a Python IDE of your preference.
 
 ### Code explained
