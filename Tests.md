@@ -1,5 +1,6 @@
 ![DataH](https://user-images.githubusercontent.com/67437213/160717510-3a182d88-0908-4f5c-aae2-b5e52b2c879d.JPG)
 ### Tests
+Here we have the 26 tests to assert that the code is working, and below the corresponding result. The method compare_with() were used to compare the two hands of each test.
 
 ```python
 import unittest
