@@ -6,10 +6,10 @@
       key_full_house_or_three = [] 
       hand_dist = self.hand_dist()
       for key, value in hand_dist.items():
-        if value == 3:
-          key_full_house_or_three.append(key)
-        else:
-          pass
+          if value == 3:
+              key_full_house_or_three.append(key)
+          else:
+              pass
 
       return key_full_house_or_three
 
@@ -18,10 +18,10 @@
       key_four_of_a_kind = [] 
       hand_dist = self.hand_dist()
       for key, value in hand_dist.items():
-        if value == 4:
-          key_four_of_a_kind.append(key)
-        else:
-          pass
+          if value == 4:
+              key_four_of_a_kind.append(key)
+          else:
+              pass
 
     return key_four_of_a_kind
 
@@ -30,13 +30,13 @@
       key_two_pair = [] 
       hand_dist = self.hand_dist()
       for key, value in hand_dist.items():
-        if value == 2:
-          key_two_pair.append(key)
-        else:
-          pass
+          if value == 2:
+              key_two_pair.append(key)
+          else:
+              pass
 
       if len(key_two_pair) == 2:
-        key_two_pair = sorted(key_two_pair, reverse = True)
+          key_two_pair = sorted(key_two_pair, reverse = True)
 
       return key_two_pair
 
@@ -45,10 +45,10 @@
       key_one_pair = [] 
       hand_dist = self.hand_dist()
       for key, value in hand_dist.items():
-        if value == 2:
-          key_one_pair.append(key)
-        else:
-          pass
+          if value == 2:
+              key_one_pair.append(key)
+          else:
+              pass
 
       return key_one_pair
 ```
