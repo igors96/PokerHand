@@ -6,8 +6,8 @@
 ### This is a project in Python 3.7.13 written by Igor Nogueira, to help a famous casino to increase its revenue by the development of a online poker game to be further offered to the users. Here, you'll find a poker hands evaluator, that receives two poker hands and determines if the first hand wins or loses to the second hand.
 
 ## Contents
-   - [Poker game](#Poker-game)
-     - 
+* [Poker game](#Poker-game)
+* [Hand Ranks](#Hand-Ranks)
    
 ### Poker game
 
@@ -23,7 +23,7 @@ Each card has a suit, which can be: Spades (S), Diamonds (D), Clubs (C) or Heart
 
 ### Hand Ranks
 
-### There are 10 possible hand ranks, which are described as follows:
+There are 10 possible hand ranks, which are described as follows:
 ![hand ranks](https://user-images.githubusercontent.com/67437213/160902018-4a2417a5-6012-4cfa-ac22-d5521543f209.JPG)
 
 <table border="1">    
