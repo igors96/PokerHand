@@ -3,7 +3,7 @@
 
 ![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=UNDER%20DEVELOPMENT&color=GREEN&style=for-the-badge)
 
-### This is a project in Python 3.7.13 written by Igor Nogueira, to help a famous casino to increase its revenue by the development of a online poker game to be further offered to the users. Here, you'll find a poker hands evaluator, that receives two poker hands and determines if the first hand wins or loses to the second hand.
+### This is a project in Python 3.7.13 written by Igor Nogueira da Silva, to help a famous casino to increase its revenue by the development of a online poker game to be further offered to the users. Here, you'll find a poker hands evaluator, that receives two poker hands and determines if the first hand wins or loses to the second hand.
 
 ## Contents
 * [Poker game](#Poker-game)
@@ -140,4 +140,8 @@ In this section, there are the different stages of the code to reach the solutio
 
 #### Tests -> https://github.com/igors96/PokerHand/blob/main/Tests.md
 
+### Author
+
 [<img src="https://avatars.githubusercontent.com/u/67437213?v=4" width=200><br><sub>Igor Nogueira da Silva</sub>](https://github.com/igors96)
+
+https://www.linkedin.com/in/igor-nogueira-da-silva-84426b169/
