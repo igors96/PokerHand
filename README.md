@@ -140,4 +140,4 @@ In this section, there are the different stages of the code to reach the solutio
 
 #### Tests -> https://github.com/igors96/PokerHand/blob/main/Tests.md
 
-| [<img src="![IGOR NOGUEIRA](https://user-images.githubusercontent.com/67437213/161137144-9e221401-02e8-49cb-8f6c-c159e9a1d367.jpg)" width=115><br><sub>Igor Nogueira da Silva</sub>](https://github.com/igors96) |
+| [<img src="https://avatars.githubusercontent.com/<igors96>" width=115><br><sub>Igor Nogueira da Silva</sub>](https://github.com/igors96) |
