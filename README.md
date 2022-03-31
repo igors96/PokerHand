@@ -8,6 +8,14 @@
 ## Contents
 * [Poker game](#Poker-game)
 * [Hand Ranks](#Hand-Ranks)
+* [Code explained](#Code-explained)
+   * [Class definition](#Class-definition)
+   * [Card treatment](#Card-treatment)
+   * [Coding the hand possibilities](#Coding-the-hand-possibilities)
+   * [Auxiliary methods](#Auxiliary-methods)
+   * [Hand ranks](#Hand-ranks)
+   * [Tie-breaker and comparisons of two hands](#Tie-breaker-and-comparisons-of-two-hands)
+   * [Tests](#Tests)
    
 ### Poker game
 
@@ -108,6 +116,9 @@ There are 10 possible hand ranks, which are described as follows:
     <td>If have a tie, goes to the highest denomination of the 4 remaining cards and so on until break the tie. It's possible to have a draw if ties in all comparisons.</td>    
   </tr>  
 </table>
+
+### Code explained
+In this section, there are the different stages of the code to reach the solution. Each stage has a link to better explanations.
 
 #### Class definition -> https://github.com/igors96/PokerHand/blob/main/Class_definition.md
 
