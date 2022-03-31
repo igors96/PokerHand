@@ -1,6 +1,7 @@
 ![DataH](https://user-images.githubusercontent.com/67437213/160717510-3a182d88-0908-4f5c-aae2-b5e52b2c879d.JPG)
 
 ### Hand ranks
+Here we have the ranks to each possibility, for helping in the definition of the hand winner.
 
 ``` python
    def hand_rank(self):
