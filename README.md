@@ -115,6 +115,8 @@
 
 #### Coding the hand possibilities -> https://github.com/igors96/PokerHand/blob/main/Hand_possibilities.md
 
+#### Auxiliary methods -> https://github.com/igors96/PokerHand/blob/main/Auxiliary_methods.md
+
 #### Hand ranks -> https://github.com/igors96/PokerHand/blob/main/Hand_ranks.md
 
 #### Tie-breaker and comparisons of two hands -> https://github.com/igors96/PokerHand/blob/main/Tiebreaker_comparisons.md
