@@ -1,6 +1,6 @@
 ![DataH](https://user-images.githubusercontent.com/67437213/160717510-3a182d88-0908-4f5c-aae2-b5e52b2c879d.JPG)
 ### Card treatment
-In this part of the code, we'll find 3 methods to treat the cards of the hand. First, extract_suit() is a function that extracts the suit of each card and sends it to a list. The function value() extracts the number of the card and does the conversion of the letters "T", "J", "Q", "K", "A" to numbers, putting them in a descending order list. Last, the function hand_dist() counts how many times a number appears in a hand, and returns a dictionary with the key being the number and the value being the counting of occurrences. 
+In this part of the code, we'll find 3 methods to treat the cards of the hand. First, extract_suit() is a function that extracts the suit of each card and sends it to a list. The function value() extracts the number of each card and does the conversion of the letters "T", "J", "Q", "K", "A" to numbers, putting all in a descending order list. Last, the function hand_dist() counts how many times a number appears in a hand, and returns a dictionary with the key being the number and the value being the counting of occurrences. 
 
 ``` python        
    def extract_suit(self):
