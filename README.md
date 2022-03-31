@@ -139,3 +139,5 @@ In this section, there are the different stages of the code to reach the solutio
 #### Tie-breaker and comparisons of two hands -> https://github.com/igors96/PokerHand/blob/main/Tiebreaker_comparisons.md
 
 #### Tests -> https://github.com/igors96/PokerHand/blob/main/Tests.md
+
+| [<img src="![IGOR NOGUEIRA](https://user-images.githubusercontent.com/67437213/161137144-9e221401-02e8-49cb-8f6c-c159e9a1d367.jpg)" width=115><br><sub>Igor Nogueira da Silva</sub>](https://github.com/igors96) |
