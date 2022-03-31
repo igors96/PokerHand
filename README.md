@@ -8,6 +8,7 @@
 ## Contents
 * [Poker game](#Poker-game)
 * [Hand Ranks](#Hand-Ranks)
+* [Access to the project](#Access-to-the-project)
 * [Code explained](#Code-explained)
    * [Class definition](#Class-definition)
    * [Card treatment](#Card-treatment)
@@ -117,6 +118,10 @@ There are 10 possible hand ranks, which are described as follows:
   </tr>  
 </table>
 
+### Access to the code
+You can access the code in the following link: https://github.com/igors96/PokerHand/blob/main/POKER_DATA_H_IGOR.ipynb
+To run the code, you can copy it and access a Python IDE of your preference.
+
 ### Code explained
 In this section, there are the different stages of the code to reach the solution. Each stage has a link to better explanations.
 
@@ -133,4 +138,3 @@ In this section, there are the different stages of the code to reach the solutio
 #### Tie-breaker and comparisons of two hands -> https://github.com/igors96/PokerHand/blob/main/Tiebreaker_comparisons.md
 
 #### Tests -> https://github.com/igors96/PokerHand/blob/main/Tests.md
-
