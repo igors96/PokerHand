@@ -144,6 +144,9 @@ In this section, there are the different stages of the code to reach the solutio
 
 #### Tests -> https://github.com/igors96/PokerHand/blob/main/Tests.md
 
+### Technologies
+The code was written in Google Colab and after downloaded as a Jupyter Notebook.
+
 ### Author
 
 [<img src="https://avatars.githubusercontent.com/u/67437213?v=4" width=200><br><sub>Igor Nogueira da Silva</sub>](https://github.com/igors96)
