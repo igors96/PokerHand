@@ -9,7 +9,7 @@
 
 ## Contents
 * [Poker game](#Poker-game)
-* [Hand Ranks](#Hand-Ranks)
+* [Hand ranks](#Hand-ranks)
 * [Access to the code](#Access-to-the-code)
 * [Code explained](#Code-explained) 
 * [Author](#Author)
@@ -27,7 +27,7 @@ Each card has a value, which is defined by the number of the card or the followi
 
 Each card has a suit, which can be: Spades (S), Diamonds (D), Clubs (C) or Hearts (H).
 
-### Hand Ranks
+### Hand ranks
 
 There are 10 possible hand ranks, which are described as follows:
 ![hand ranks](https://user-images.githubusercontent.com/67437213/160902018-4a2417a5-6012-4cfa-ac22-d5521543f209.JPG)
