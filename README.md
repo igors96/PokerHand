@@ -11,14 +11,7 @@
 * [Poker game](#Poker-game)
 * [Hand Ranks](#Hand-Ranks)
 * [Access to the code](#Access-to-the-code)
-* [Code explained](#Code-explained)
-   * [Class definition](#Class-definition)
-   * [Card treatment](#Card-treatment)
-   * [Coding the hand possibilities](#Coding-the-hand-possibilities)
-   * [Auxiliary methods](#Auxiliary-methods)
-   * [Hand ranks](#Hand-ranks)
-   * [Tie-breaker and comparisons of two hands](#Tie-breaker-and-comparisons-of-two-hands)
-   * [Tests](#Tests)
+* [Code explained](#Code-explained) 
 * [Author](#Author)
 * [License](#License)
    
@@ -130,19 +123,19 @@ To run the code, you can copy it and access a Python IDE of your preference.
 ### Code explained
 In this section, there are the different stages of the code to reach the solution. Each stage has a link to better explanations.
 
-#### Class definition -> https://github.com/igors96/PokerHand/blob/main/Class_definition.md
+Class definition -> https://github.com/igors96/PokerHand/blob/main/Class_definition.md
 
-#### Card treatment -> https://github.com/igors96/PokerHand/blob/main/Card_treatment.md
+Card treatment -> https://github.com/igors96/PokerHand/blob/main/Card_treatment.md
 
-#### Coding the hand possibilities -> https://github.com/igors96/PokerHand/blob/main/Hand_possibilities.md
+Coding the hand possibilities -> https://github.com/igors96/PokerHand/blob/main/Hand_possibilities.md
 
-#### Auxiliary methods -> https://github.com/igors96/PokerHand/blob/main/Auxiliary_methods.md
+Auxiliary methods -> https://github.com/igors96/PokerHand/blob/main/Auxiliary_methods.md
 
-#### Hand ranks -> https://github.com/igors96/PokerHand/blob/main/Hand_ranks.md
+Hand ranks -> https://github.com/igors96/PokerHand/blob/main/Hand_ranks.md
 
-#### Tie-breaker and comparisons of two hands -> https://github.com/igors96/PokerHand/blob/main/Tiebreaker_comparisons.md
+Tie-breaker and comparisons of two hands -> https://github.com/igors96/PokerHand/blob/main/Tiebreaker_comparisons.md
 
-#### Tests -> https://github.com/igors96/PokerHand/blob/main/Tests.md
+Tests -> https://github.com/igors96/PokerHand/blob/main/Tests.md
 
 ### Technologies
 The code was written in Google Colab and after downloaded as a Jupyter Notebook.
@@ -155,4 +148,4 @@ LinkedIn: https://www.linkedin.com/in/igor-nogueira-da-silva-84426b169/
 
 ### License
 
-Poker hands evaluator is [MIT licensed](./LICENSE).
+PokerHand is [MIT licensed](./LICENSE).
